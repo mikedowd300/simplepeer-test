@@ -1,0 +1,85 @@
+.flexer {
+    display: flex;
+}
+
+.user-name {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 25%;
+  height: 15vh;
+  background-color: white;
+  margin-right: 3%;
+}
+
+#your-name {
+  width: 95%;
+  padding: 5px;
+}
+
+#submit-your-name {
+  padding: 6px;
+  background-color: gray;
+  margin-top: 10px;
+}
+
+.user-list  {
+  box-sizing: border-box;
+  width: 25%;
+  height: 95vh;
+  font-size: 1em;
+  background-color: white;
+  border: 1px solid black;
+  margin-right: 3%;
+  overflow-x: auto;
+}
+
+.user-list-item {
+  margin: 0;
+}
+
+.vid-container {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.video-div {
+  box-sizing: border-box;
+  width: 50%;
+  height: 200px;
+  border: 1px solid black;
+  color: red;
+}
+
+.answer-phone-options {
+  border: 1px solid black;
+  padding: 5px;
+  display: none;
+}
+
+.answer-call {
+  background-color: green;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.decline-call {
+  background-color: red;
+  width: 35%;
+}
+
+.my-id, .other-id {
+  padding: 5px;
+  margin: 10px 0;
+  width: 90%;
+}
+
+.message-stuff {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.outgoing-container {
+  width: 95%;
+  border: 1px solid black;
+}

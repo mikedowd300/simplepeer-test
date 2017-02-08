@@ -1,0 +1,82 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./main.css">
+    <title>P2P Test</title>
+  </head>
+  <body>
+    <div class="flexer">
+      <div class="user-name">
+
+        <form class="input-form">
+          <input id="your-name" type="text" placeholder="Your name">
+          <div id="submit-your-name">Submit</div>
+        </form>
+
+        <div class="answer-phone-options flexer">
+          <div class="answer-call">
+            <h4>Answer</h4>
+          </div>
+          <div class="decline-call">
+            <h4>Decline</h4>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="user-list">
+      </div>
+      <div class="vid-container flexer">
+        <div class="video-div">
+
+        </div>
+        <div class="message-stuff">
+          <input class="my-id" type="text" name="" value="">
+          <input class="other-id" type="text" name="" value="">
+          <textarea class="my-message" name="name" rows="8" cols="80" placeholder="your message"></textarea>
+          <button class="connect-btn" type="button" name="button">connect</button>
+          <button class="send-btn" type="button" name="button">send</button>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.2/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="bundle.js"></script>
+    <!-- <script type="text/javascript" src="node_modules/simple-peer/simplepeer.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html> -->
+
+<html>
+  <body>
+    <style>
+      #outgoing {
+        width: 600px;
+        word-wrap: break-word;
+      }
+    </style>
+    <form>
+      <textarea id="incoming"></textarea>
+      <button type="submit">submit</button>
+    </form>
+
+    <div class="outgoing-container">
+      <pre id="outgoing"></pre>
+    </div>
+
+    <div class="video">
+      <video src="" autoplay poster="posterimage.jpg">
+      </video>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
